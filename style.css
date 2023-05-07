@@ -3,7 +3,6 @@
 }
 
 body {
-    max-width: 50em;
     margin-top: 5px;
     margin-right: auto;
     margin-bottom: 0px;
@@ -18,25 +17,149 @@ body {
     flex-direction: column;
 }
 
+main {
+    background-color: #fff;
+}
+
+div#full-span-container {
+    border: solid 1px black;
+}
+
 div#body-copy-container {
     display: flex;
-    flex-direction: column;
+    max-width: 100%;
+    gap: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
 }
 
 section#leadcopy {
     overflow: hidden;
-    max-width: 60%;
+    max-width: 40%;
     padding-bottom: 2px;
     line-height: 70px;
     font-weight: lighter;
     font-size: 60px;
 }
 
+section#subcopy {
+    overflow: hidden;
+    max-width: 40%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
 p#lead-copy-paragraph {
-    margin-top: 0.5em;
+    margin-top: 0em;
     margin-left: auto;
     margin-bottom: 0.5em;
     margin-right: auto;
 }
 
+ul#benefits-copy {
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
 
+p {
+    margin-top: 0em;
+}
+
+section#instructor {
+    margin-top: 4em;
+    margin-right: auto;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+}
+
+div.label {
+    font-size: 20px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+div.spacer-30-px {
+    margin-top: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1em;
+}
+
+h2.instructor-name {
+    font-size: 60px;
+    font-weight: 300;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+}
+
+div.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#student {
+    display: block;
+
+}
+
+div.instructor-image-container {
+    display: block;
+}
+
+img {
+    border-radius: 8px;
+    width: 500px;
+    height: auto;
+    margin-bottom: 2em;
+}
+
+section#student {
+    display: flex;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    gap: 50px;
+}
+
+section#instructor {
+    display: flex;
+ 
+    gap: 50px;
+}
+
+h2.student-description {
+    font-size: 60px;
+    font-weight: 300;
+    margin-top: 0.5em;
+    margin-bottom: 0.8em;
+}
+
+div#container-zero {
+    border: solid black 1px;
+}
+
+div#container-one {
+    border: solid black 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+div#container-two {
+    border: solid black 1px;
+}
+
+div#container-three {
+    border: solid black 1px;
+}
